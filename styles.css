@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@1,200;1,700&display=swap');
+
+/* Variables */
+:root {
+  --font-family: 'Rokkitt', serif;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #F3EFE0;
+  --primary-color: #3D8361;
+  --secondary-color: #535151;
+  --primary-shadow: #F3EFE0;
+  --secondary-shadow: #F3EFE0;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*.name h1 {
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  3% { color: red; }
+  70% { color: blue; }
+  100% { color: red; }
+}*/
+
+ul {
+  
+  list-style-type: none;
+}
+
+a {
+  font-weight: 900;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+body {
+  font-family: var(--font-family);
+}
+  
+.box {
+  margin: auto;
+  margin-top: 2rem;
+  width: 80%;
+  padding: 0.625rem;
+}
+
+.box h1 {
+  margin-bottom: var(--bottom-margin);
+}
+
+.box p {
+  line-height: var(--line-height);
+  padding-top: .3rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.rowname {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.rowname h1 {
+  display:inline-block; 
+  font-size: 128px;
+  padding: 0.3rem;
+
+}
+
+.column {
+  flex: 25%;
+}
+
+/*tabs*/
+
+.tab {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.tab:hover {
+  color: black;
+}
+
+.resume a {
+  color:black;
+  text-decoration: none;
+}
+
+.resume a:hover {
+  color: var(--primary-color);
+}
+
+.tabPanel {
+  padding-left: 0rem;
+  padding-top:0.5rem;
+}
+
+.indent p {
+  padding-left: 2rem;
+}
+
+.indentTwo p {
+  padding-left: 4rem;
+  display:inline-block; 
+}
+
+.tabrow {
+  height: 30rem;
+}
+
+
+/*footer*/
+
+footer {
+  position: relative;
+  padding: 1.25rem;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  background: var(--primary-color);
+}
+
+.fa-google {
+  background: black;
+  color: white;
+}
+
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
