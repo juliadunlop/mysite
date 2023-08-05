@@ -48,6 +48,7 @@ a {
   font-weight: 900;
   text-decoration: none;
   color: var(--primary-color);
+  cursor: pointer;
 }
 
 a:hover {
@@ -78,6 +79,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  max-height: min-content;
 }
 
 .rowname {
@@ -90,27 +92,146 @@ body {
   display:inline-block; 
   font-size: 128px;
   padding: 0.3rem;
-
 }
 
 .column {
   flex: 25%;
+  min-height: ;
+}
+
+.name {
+  display: flex;
+  flex-direction:row;
+  min-width:75%
+}
+
+.break{
+  display: flex;
+  flex-wrap: wrap;
+  min-width:50%;
 }
 
 /*tabs*/
 
-.tab {
+/* .unactiveTab {
+  color: var(--primary-color);
+  text-decoration: none;
+  display:inline-block;
+  position: relative;
+  padding: 6px 24px 6px 0px;
+}
+
+.unactiveTab:hover {
+  color: black;
+}
+
+.activeTab {
+  color: black;
+  display:inline-block;
+  text-decoration: none;
+}
+
+.react-tabs__tab--selected {
+  background: #fff;
+  border-color: #aaa;
+  border-radius: 5px 5px 0 0;
+} */
+
+/*React Tabs Styling: https://github.com/reactjs/react-tabs/blob/main/style/react-tabs.css */
+
+.react-tabs {
+  -webkit-tap-highlight-color: transparent;
+  max-width: 100%;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+  width:100%;
+  overflow: auto;
+  overflow-y: hidden;
+  white-space:nowrap;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.react-tabs__tab--selected {
+  background: #fff;
+  border-color: #aaa;
+  color: black;
+  border-radius: 5px 5px 0 0;
+}
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab:focus {
+  outline: none;
+}
+
+.react-tabs__tab:focus:after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff;
+}
+
+.react-tabs__tab-panel {
+  display: flex;
+  flex-direction: wrap;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+/*Misc. about styling*/
+
+.link {
   color: var(--primary-color);
   text-decoration: none;
 }
 
-.tab:hover {
+.link:hover{
   color: black;
+  cursor: auto;
+  cursor: pointer;
+}
+
+.link iframe {
+  position: absolute;
+  visibility: hidden;
+}
+
+.link:hover iframe{
+  visibility: visible;
+  position: absolute;
+  width: 80px; 
+  height: 80px;
+  opacity: 50%;
+  border: none; /*https://stackoverflow.com/questions/58028788/how-to-add-a-mousemove-event-listener-to-a-component-cursor-which-is-moved-wit*/
 }
 
 .resume a {
   color:black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .resume a:hover {
@@ -134,6 +255,29 @@ body {
 .tabrow {
   height: 30rem;
 }
+
+.iframe {
+  top: var(--y);
+  left: var(--x);
+}
+
+/*Scrollbar: https://www.youtube.com/watch?v=lvKK2fs6h4I*/
+::-webkit-scrollbar{
+  width: .5em;
+  height: .5em;
+}
+
+::-webkit-scrollbar-track{
+background:#535151;
+ border-radius:100vw;
+ margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#aaa;
+  border-radius:100vw;
+ }
+
 
 
 /*footer*/
