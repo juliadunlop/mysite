@@ -8,9 +8,9 @@ import About from "./About";
 function App() {
   return <Router>
     <Routes >
-        <Route exact path='/mysite' element={<About />} />
-        <Route path='/mysite/projects' element={<Projects />} />
-        <Route path='/mysite/contact' element={<Contact />} />
+        <Route exact path='/' element={<About />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/contact' element={<Contact />} />
     </Routes>
     <Footer />
     </Router>
