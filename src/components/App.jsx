@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from "./Footer";
 import LearnMore from "./LearnMore";
 import Home from "./Home";
@@ -10,7 +10,7 @@ import Civil from "./Civil";
 import Gyrotonics from "./Gyrotonics";
 
 function App() {
-  return <Router>
+  return <Router basename = '/'>
     <Routes>
         <Route exact path='/' element={<Home />} />
         <Route element={<Layout />}>

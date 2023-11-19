@@ -31,7 +31,7 @@ export default function CustomAboutTab() {
                         <p><a class = "link" href="https://www.ubc.ca" target="_blank" rel="noopener noreferrer" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}>Rigging {/*<iframe src="https://www.google.com/" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}></iframe>*/}</a> - Optimized pick points for Mass Timber construction - Language: C++</p>
                         <p><a class = "link" href="https://www.ubc.ca" target="_blank" rel="noopener noreferrer" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}>Shop Drawing Parser {/*<iframe src="https://www.google.com/" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}></iframe>*/}</a> - Extracting key panel characteristics - Language: Python</p>
                         <br></br>
-                        <h4 class="resume"><a href="/software" id="software">Learn More...</a></h4>
+                        <h4 class="resume"><a href="#/software" id="software">Learn More...</a></h4>
                 </TabPanel>
                 <TabPanel>
                         <h2>Education</h2>
@@ -42,7 +42,7 @@ export default function CustomAboutTab() {
                         <p><a class = "link" href="https://www.smartlam.com/" target="_blank" rel="noopener noreferrer" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}>Smartlam {/*<iframe src="https://www.google.com" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}></iframe>*/}</a> - Project Engineer</p>
                         <p><a class = "link" href="https://www.eclipse-engineering.com/" target="_blank" rel="noopener noreferrer" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}>Eclipse Engineering {/*<iframe src="https://www.google.com" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}></iframe>*/}</a> - CLT Team Lead, Project Manager, Project Engineer</p>
                         <br></br>
-                        <h4 class="resume"><a href="/civil" id="civil">Learn More...</a></h4>
+                        <h4 class="resume"><a href="#/civil" id="civil">Learn More...</a></h4>
                 </TabPanel>
                 <TabPanel>
                         <h2>Training</h2>
@@ -57,13 +57,13 @@ export default function CustomAboutTab() {
                         <p><a class = "link" href="https://www.echodance.com/" target="_blank" rel="noopener noreferrer" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}>Echo School of Dance {/*<iframe src="https://www.google.com" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}></iframe>*/}</a> - Upper Level Technique and Repertoire</p>
                         <p><a class = "link" href="https://www.westernballet.org/" target="_blank" rel="noopener noreferrer" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}>Western Ballet {/*<iframe src="https://www.google.com" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}></iframe>*/}</a> - Adult Beginning Ballet</p>                       
                         <br></br>
-                        <h4 class="resume"><a href="/ballet" id="ballet">Learn More...</a></h4>   
+                        <h4 class="resume"><a href="#/ballet" id="ballet">Learn More...</a></h4>   
                 </TabPanel>   
                 <TabPanel>
                         <h2>Training</h2>
                         <p><a class = "link" href="https://www.gyrotonic.com/teacher-training/gyrotonic-level-1/" target="_blank" rel="noopener noreferrer" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}>Foundations Pre-Training {/*<iframe src="https://www.google.com" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}></iframe>*/}</a> - Urban Body San Jose</p>     
                         <br></br>
-                        <h4 class="resume"><a href="/gyrotonics" id="gyrotonics">Learn More...</a></h4>   
+                        <h4 class="resume"><a href="#/gyrotonics" id="gyrotonics">Learn More...</a></h4>   
                 </TabPanel>  
                 </div> 
             </Tabs>
