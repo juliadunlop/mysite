@@ -24,7 +24,7 @@ export default function CustomAboutTab() {
                 <div class = "tabPanel">
                 <TabPanel>
                         <h2>Education</h2>
-                        <p><a class = "link" href="https://oregonstate.edu/" target="_blank" rel="noopener noreferrer" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}>Bachelors of Science in Computer Science {/*<iframe src="https://www.google.com" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}></iframe>*/}</a> - Oregon State Universtiy - Prospect 2025</p>
+                        <p><a class = "link" href="https://oregonstate.edu/" target="_blank" rel="noopener noreferrer" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}>Bachelors of Science in Computer Science {/*<iframe src="https://www.google.com" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}></iframe>*/}</a> - Oregon State University - Prospect 2025</p>
                         <br></br>
                         <h2>Projects</h2>
                         <p><a class = "link" href="https://www.ubc.ca" target="_blank" rel="noopener noreferrer" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}>Sequence {/*<iframe src="https://www.ubc.ca/" title="UBC" onMouseMove={(ev)=> handleMouseMove(ev)} style={{left:MousePosition.left , top: MousePosition.top}}></iframe>*/}</a> - The teachers aid - Language: MERN</p>

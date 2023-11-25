@@ -1,17 +1,30 @@
 import React from "react";
 
 function Header() {
+
     return (
-        <div class="box">
-            <div class = "navbar">
-                <a href="/" class="navtab"><img class="navtabimg" src={require('./images/jd.png')}></img></a>
-                <a href="#/learnmore" class="navtab">About</a>
-                <a href="#/software" class="navtab">Software</a>
-                <a href="#/civil" class="navtab">Civil</a>
-                <a href="#/ballet" class="navtab">Ballet</a>
-                <a href="#/gyrotonics"class="navtab">Gyrotonics</a>
+        <div class="header">
+            <div class="topnav" id="myTopnav">
+                <a href="/" class="active"><img class="navtabimg" src={require('./images/jd.png')}></img></a>
+                <a href="#/learnmore">About</a>
+                <a href="#/software">Software</a>
+                <a href="#/civil">Civil</a>
+                <a href="#/ballet">Ballet</a>
+                <a href="#/gyrotonics">Pilates</a>
+                <div class="dropdown">
+                    <a class="icon">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <li><a href="#/learnmore">About</a></li>
+                        <li><a href="#/software">Software</a></li>
+                        <li><a href="#/civil">Civil</a></li>
+                        <li><a href="#/ballet">Ballet</a></li>
+                        <li><a href="#/gyrotonics">Pilates</a></li>
+                    </div>
+                </div>
+                
             </div>
-            <div class = "topline"></div>
         </div>
     
     )
